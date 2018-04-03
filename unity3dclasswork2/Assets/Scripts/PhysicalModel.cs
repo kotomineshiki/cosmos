@@ -25,7 +25,8 @@ public class PhysicalModel : MonoBehaviour {
 
         this.GetComponent<SphereCollider>().radius = radius;
         this.transform.localScale = new Vector3(radius, radius, radius);
-        transform.position =new Vector3(4* distance,0,0);
+        transform.position =new Vector3(50* distance,0,0);
 
     }
+
 }
